@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-25T05:27:45.439Z",
+        "line": 6,
+        "name": "Login with UserName and password and hit the sign in button",
+        "description": "",
+        "id": "web-test;login-with-username-and-password-and-hit-the-sign-in-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5001100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Internet connection is there",
+            "match": {
+              "location": "stepdefination.WebTestStepdefination.internet_connection_is_there()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1999400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "UserName is \"jaiswalkunika@gmail.com\" and password is \"9437212557\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jaiswalkunika@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"9437212557\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefination.WebTestStepdefination.user_name_is_and_password_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1999900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "FaceBook Home page should be displayed",
+            "match": {
+              "location": "stepdefination.WebTestStepdefination.face_book_home_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MyTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-25T05:27:45.806Z",
+        "line": 18,
+        "name": "Login with UserName and passord and hit the sign in button",
+        "description": "",
+        "id": "web-test;login-with-username-and-passord-and-hit-the-sign-in-button;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Internet connection is there",
+            "match": {
+              "location": "stepdefination.WebTestStepdefination.internet_connection_is_there()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "UserName is jaiswalkunika@gmail.com and password is 9437212557",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jaiswalkunika@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "9437212557",
+                  "offset": 52
+                }
+              ],
+              "location": "stepdefination.WebTestStepdefination.user_name_is_and_password_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "FaceBook Home page should be displayed",
+            "match": {
+              "location": "stepdefination.WebTestStepdefination.face_book_home_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MyTest"
+          }
+        ]
+      }
+    ],
+    "name": "web test",
+    "description": "",
+    "id": "web-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/webtest.feature",
+    "tags": []
+  }
+]

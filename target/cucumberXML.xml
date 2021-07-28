@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="63.978">
+<testcase classname="Qaclick academy practise" name="search for a vegetable" time="22.48">
+<system-out><![CDATA[Given User is on greenkart home page........................................passed
+When User searchs for "Cucumber" in the search box..........................passed
+Then "Cucumber" results are displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Qaclick academy practise" name="search for a vegetable and add those to the checkout page" time="24.128">
+<system-out><![CDATA[Given User is on greenkart home page........................................passed
+When User search for Beetroot in the search box.............................passed
+And added items to the bag..................................................passed
+And proceed for the check out...............................................passed
+Then Verify selected Beetroot is displayed in the checkout page.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Qaclick academy practise" name="search for a vegetable and add those to the checkout page 2" time="16.671">
+<system-out><![CDATA[Given User is on greenkart home page........................................passed
+When User search for Brinjal in the search box..............................passed
+And added items to the bag..................................................passed
+And proceed for the check out...............................................passed
+Then Verify selected Brinjal is displayed in the checkout page..............passed
+]]></system-out>
+</testcase>
+<testcase classname="web test" name="Login with UserName and password and hit the sign in button" time="0.015">
+<system-out><![CDATA[Given Internet connection is there..........................................passed
+When UserName is "jaiswalkunika@gmail.com" and password is "9437212557".....passed
+Then FaceBook Home page should be displayed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="web test" name="Login with UserName and passord and hit the sign in button" time="0.003">
+<system-out><![CDATA[Given Internet connection is there..........................................passed
+When UserName is jaiswalkunika@gmail.com and password is 9437212557.........passed
+Then FaceBook Home page should be displayed.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
