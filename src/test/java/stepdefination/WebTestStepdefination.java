@@ -11,6 +11,7 @@ public class WebTestStepdefination {
 		
 		System.out.println("internet connection is checking");
 		System.out.println("new change");
+		System.out.println("new change");
 	}
 	@When("^UserName is (.+) and password is (.+)$")
 	public void user_name_is_and_password_is(String userName, String password) {
