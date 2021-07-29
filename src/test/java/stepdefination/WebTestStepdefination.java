@@ -10,7 +10,9 @@ public class WebTestStepdefination {
 	public void internet_connection_is_there() {
 		
 		System.out.println("internet connection is checking");
-		
+		System.out.println("new change");
+		System.out.println("new change");
+		System.out.println("Still checking the internet connection");
 	}
 	@When("^UserName is (.+) and password is (.+)$")
 	public void user_name_is_and_password_is(String userName, String password) {
@@ -20,6 +22,6 @@ public class WebTestStepdefination {
 	@Then("FaceBook Home page should be displayed")
 	public void face_book_home_page_should_be_displayed() {
 	    System.out.println("FaceBook Home page should be displayed");
-	}
+	    System.out.println("facebook home page still loading");	}
 
 }
